@@ -20,7 +20,7 @@ document.getElementById('loginBtn').addEventListener('click', () => {
     const password = document.getElementById('password').value;
     signInWithEmailAndPassword(auth, email, password)
         .then(userCredential => {
-            statusEl.textContent = "Login successful!";
+            statusEl.textContent = "https://rohobotya.github.io/www.zowipromotion.com/";
         })
         .catch(error => {
             statusEl.textContent = "Login error: " + error.message;
