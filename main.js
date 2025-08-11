@@ -20,7 +20,7 @@ document.getElementById('loginBtn').addEventListener('click', () => {
     const password = document.getElementById('password').value;
     signInWithEmailAndPassword(auth, email, password)
         .then(userCredential => {
-            <section class="apply For Barii Gaming Memos">
+            <section class="Join">
         <a href="https://rohobotya.github.io/www.zowipromotion.com/" class="cta-button" target="_blank">Join</a>
   </section>
             statusEl.textContent = "JOIN";
