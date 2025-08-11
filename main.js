@@ -20,7 +20,7 @@ document.getElementById('loginBtn').addEventListener('click', () => {
     const password = document.getElementById('password').value;
     signInWithEmailAndPassword(auth, email, password)
         .then(userCredential => {
-            statusEl.textContent = "JOIN";
+            statusEl.textContent = "Log in success!Touch the join";
         })
         .catch(error => {
             statusEl.textContent = "Login error: " + error.message;
