@@ -20,7 +20,9 @@ document.getElementById('loginBtn').addEventListener('click', () => {
     const password = document.getElementById('password').value;
     signInWithEmailAndPassword(auth, email, password)
         .then(userCredential => {
-            statusEl.textContent = "Log in success!Touch the join";
+            statusEl.textContent = "Login success! Redirecting...";
+            // Redirect to your desired link
+            window.location.href = "https://rohobotya.github.io/www.zowipromotion.com/";
         })
         .catch(error => {
             statusEl.textContent = "Login error: " + error.message;
